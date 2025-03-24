@@ -82,7 +82,6 @@ nav {
     padding: clamp(40px, 5vw, 100px);
     color: #EEE9E2;
     width: min(800px, 100%);
-    margin-left: 10%;
     margin-right: auto;
 }
 
@@ -239,7 +238,7 @@ nav {
 
 .feature-title {
     font-family: 'LT Superior';
-    font-size: clamp(24px, 3vw, 32px);
+    font-size: clamp(35px, 3vw, 32px);
     font-weight: 500;
     margin-bottom: 30px;
     background: linear-gradient(90deg, #9A805B 0%, #342B1F 100%);
@@ -251,7 +250,7 @@ nav {
 .feature-text {
     font-family: 'LT Superior';
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.3;
     color: #666;
     max-width: 460px;
 }
@@ -381,7 +380,7 @@ nav {
 .what-we-treat .section-description {
     font-family: 'LT Superior';
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.3;
     color: #666;
     max-width: 600px;
     text-align: center;
@@ -784,7 +783,7 @@ nav {
 .value-content p {
     font-family: 'LT Superior';
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.3;
     color: #666;
 }
 
@@ -926,7 +925,7 @@ nav {
 .footer-cta p {
     font-family: 'LT Superior';
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.3;
     max-width: 600px;
     margin-bottom: 40px;
     color: rgba(255, 255, 255, 0.9);
