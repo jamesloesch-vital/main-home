@@ -69,7 +69,7 @@ nav {
 }
 
 .logo {
-    height: clamp(30px, 4vw, 40px);
+    height: clamp(20px, 2vw, 40px);
     width: auto;
 }
 
