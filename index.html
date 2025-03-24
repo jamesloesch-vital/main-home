@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vital Protocol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero">
+        <video class="video-background" autoplay loop muted playsinline>
+            <source src="assets/montage.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+        
+        <nav>
+            <img src="assets/VP-light.png" alt="Vital Protocol" class="logo">
+        </nav>
+
+        <div class="hero-content">
+            <h1 class="hero-header">Everything you need to be the best <span class="animated-word">father</span></h1>
+            <p class="hero-text">Get accurate, effective testosterone therapy that supports your goals and helps you feel your best.</p>
+            <div class="waitlist-container">
+                <a href="#" class="join-waitlist">JOIN WAITLIST</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="features-title">The most comprehensive platform for<br>male hormonal health</h2>
+        
+        <div class="feature-grid">
+            <div class="feature">
+                <div class="feature-content">
+                    <h3 class="feature-title">Convenient lab testing</h3>
+                    <p class="feature-text">We start by figuring out what's causing your low testosterone with our comprehesive 30+ biomarker panel, available at the nearest Labcorp or Quest Diagnostics location.</p>
+                </div>
+                <div class="feature-image">
+                    <img src="assets/lab-visit.png" alt="Lab Visit">
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-content">
+                    <h3 class="feature-title">In-depth biomarker analysis</h3>
+                    <p class="feature-text">Get unprecedented insights into your biomarkers and an accurate diagnosis with our in-depth biomarker analysis.</p>
+                </div>
+                <div class="feature-image biomarker-slideshow">
+                    <img src="assets/biomarker-1.png" alt="Biomarker Insights" class="active">
+                    <img src="assets/biomarker-2.png" alt="Biomarker Insights">
+                    <img src="assets/biomarker-3.png" alt="Biomarker Insights">
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-content">
+                    <h3 class="feature-title">Smart treatment recommendations</h3>
+                    <p class="feature-text">Our platform and custom lab panel allows us to make the best testosterone therapy treatment recommendations for you, prescribed by licensed physicians.</p>
+                </div>
+                <div class="feature-image">
+                    <img src="assets/recommendation.png" alt="Medication Approaches">
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-content">
+                    <h3 class="feature-title">Track your progress and trends over time</h3>
+                    <p class="feature-text">Through progress tracking and trend analysis, you can see how your testosterone levels are changing over time and adjust your treatment as needed.</p>
+                </div>
+                <div class="feature-image">
+                    <img src="assets/trend.png" alt="Track Progress">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="what-we-treat">
+        <h2 class="section-title">What we treat</h2>
+        <p class="section-description">Low testosterone is a common condition that can be caused by a variety of factors, requiring a personalized approach. We treat both primary and secondary hypogonadism through a variety of treatments, helping you find the best solution for your unique needs.</p>
+        
+        <div class="condition-cards">
+            <div class="condition-card">
+                <div class="card-content">
+                    <h3>Primary<br>hypogonadism</h3>
+                    <button class="expand-icon" aria-label="Show details">+</button>
+                </div>
+                <img src="assets/primary-image.jpeg" alt="Primary hypogonadism">
+                <div class="info-box">
+                    <button class="close-icon" aria-label="Close details">×</button>
+                    <div class="info-content">
+                        <div class="info-section">
+                            <h4>What it is</h4>
+                            <p>A condition where the testicles themselves don't produce enough testosterone.</p>
+                        </div>
+                        <div class="info-section">
+                            <h4>Who it affects</h4>
+                            <p>Men with testicular injuries, certain genetic conditions, or those who've had radiation/chemotherapy. Also occurs naturally as men age, especially after 40, with significant increases in men over 60.</p>
+                        </div>
+                        <div class="info-section">
+                            <h4>Treatment</h4>
+                            <p>Get effective testosterone replacement through our service with options like gels, patches, or injections to restore your levels to normal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="condition-card">
+                <div class="card-content">
+                    <h3>Secondary<br>hypogonadism</h3>
+                    <button class="expand-icon" aria-label="Show details">+</button>
+                </div>
+                <img src="assets/secondary-image.png" alt="Secondary hypogonadism">
+                <div class="info-box">
+                    <button class="close-icon" aria-label="Close details">×</button>
+                    <div class="info-content">
+                        <div class="info-section">
+                            <h4>What it is</h4>
+                            <p>The testicles are healthy, but the brain isn't sending proper signals to make testosterone.</p>
+                        </div>
+                        <div class="info-section">
+                            <h4>Who it affects</h4>
+                            <p>Most common in men 30-50, particularly those with obesity, diabetes, high stress, or those taking certain medications.</p>
+                        </div>
+                        <div class="info-section">
+                            <h4>Treatment</h4>
+                            <p>Through our service, receive personalized treatments including lifestyle guidance, enclomiphene to boost your body's natural production, or testosterone replacement if needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="find-out-link">Find out which may be affecting you →</a>
+    </section>
+
+    <section class="dashboard">
+        <h2 class="section-title">All your lab data in one place,<br>easily interpretable and actionable</h2>
+        
+        <div class="dashboard-nav">
+            <button class="nav-button active" data-view="dashboard">Dashboard</button>
+            <button class="nav-button" data-view="clinician">Clinician Summary</button>
+            <button class="nav-button" data-view="biomarkers">Biomarkers</button>
+            <button class="nav-button" data-view="recommendations">Recommendations</button>
+            <button class="nav-button" data-view="lab-reports">Lab Reports</button>
+        </div>
+
+        <div class="dashboard-display">
+            <div class="dashboard-frame">
+                <img src="assets/dashboard-1.png" alt="Dashboard view" class="active" data-view="dashboard">
+                <img src="assets/dashboard-2.png" alt="Clinician Summary view" data-view="clinician">
+                <img src="assets/dashboard-3.png" alt="Biomarkers view" data-view="biomarkers">
+                <img src="assets/dashboard-4.png" alt="Recommendations view" data-view="recommendations">
+                <img src="assets/dashboard-5.png" alt="Lab Reports view" data-view="lab-reports">
+            </div>
+        </div>
+    </section>
+
+    <section class="value-prop">
+        <div class="value-content">
+            <h2>Get back to being the man<br>you were meant to be</h2>
+            <p>Low testosterone can impact your energy, mood, and overall quality of life. We help you regain control of your health and get back to living the life you deserve.</p>
+        </div>
+        
+        <div class="value-slider-container">
+            <div class="value-grid">
+                <div class="value-card">
+                    <img src="assets/vprop-1.png" alt="Family support">
+                </div>
+                <div class="value-card">
+                    <img src="assets/vprop-2.png" alt="Date night">
+                </div>
+                <div class="value-card">
+                    <img src="assets/vprop-3.png" alt="Morning runs">
+                </div>
+                <div class="value-card">
+                    <img src="assets/vprop-4.png" alt="Grandkids playtime">
+                </div>
+            </div>
+            <div class="value-nav-buttons">
+                <button class="value-nav prev" aria-label="Previous slide">‹</button>
+                <button class="value-nav next" aria-label="Next slide">›</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-cta">
+            <h2>Get started with Vital Protocol</h2>
+            <p>Join the waitlist today to get access to our comprehensive testosterone therapy service.</p>
+            <a href="#" class="join-waitlist">JOIN WAITLIST</a>
+        </div>
+
+        <div class="footer-bottom">
+            <img src="assets/VP-light.png" alt="Vital Protocol" class="footer-logo">
+            <div class="footer-info">
+                <p class="legal-text">Vital Protocol, Inc. is a registered company in the United States, operating under New York, USA. All medical services provided by Vital Protocol are subject to state oversight and follow all applicable healthcare regulations.</p>
+                <p class="copyright">© Vital Protocol 2024, All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="waitlist-modal" id="waitlistModal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <div class="modal-header">
+                <h2>Join the Waitlist</h2>
+                <p>We're expanding while maintaining a high standard of care, so capacity is limited.</p>
+            </div>
+            <form class="waitlist-form" id="waitlistForm">
+                <div class="form-group">
+                    <input name="Email" type="email" id="email" placeholder="Email Address*" required>
+                </div>
+                <div class="form-group">
+                    <input name="First Name" type="text" id="firstName" placeholder="First Name*" required>
+                </div>
+                <div class="form-group">
+                    <input name="How did you hear about us" type="text" id="hearAbout" placeholder="How did you hear about us?">
+                </div>
+                <div class="form-group">
+                    <select name="State" id="state" required>
+                        <option value="" disabled selected>State*</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="CA">California</option>
+                        <option value="CO">Colorado</option>
+                        <option value="CT">Connecticut</option>
+                        <option value="DE">Delaware</option>
+                        <option value="FL">Florida</option>
+                        <option value="GA">Georgia</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="ID">Idaho</option>
+                        <option value="IL">Illinois</option>
+                        <option value="IN">Indiana</option>
+                        <option value="IA">Iowa</option>
+                        <option value="KS">Kansas</option>
+                        <option value="KY">Kentucky</option>
+                        <option value="LA">Louisiana</option>
+                        <option value="ME">Maine</option>
+                        <option value="MD">Maryland</option>
+                        <option value="MA">Massachusetts</option>
+                        <option value="MI">Michigan</option>
+                        <option value="MN">Minnesota</option>
+                        <option value="MS">Mississippi</option>
+                        <option value="MO">Missouri</option>
+                        <option value="MT">Montana</option>
+                        <option value="NE">Nebraska</option>
+                        <option value="NV">Nevada</option>
+                        <option value="NH">New Hampshire</option>
+                        <option value="NJ">New Jersey</option>
+                        <option value="NM">New Mexico</option>
+                        <option value="NY">New York</option>
+                        <option value="NC">North Carolina</option>
+                        <option value="ND">North Dakota</option>
+                        <option value="OH">Ohio</option>
+                        <option value="OK">Oklahoma</option>
+                        <option value="OR">Oregon</option>
+                        <option value="PA">Pennsylvania</option>
+                        <option value="RI">Rhode Island</option>
+                        <option value="SC">South Carolina</option>
+                        <option value="SD">South Dakota</option>
+                        <option value="TN">Tennessee</option>
+                        <option value="TX">Texas</option>
+                        <option value="UT">Utah</option>
+                        <option value="VT">Vermont</option>
+                        <option value="VA">Virginia</option>
+                        <option value="WA">Washington</option>
+                        <option value="WV">West Virginia</option>
+                        <option value="WI">Wisconsin</option>
+                        <option value="WY">Wyoming</option>
+                    </select>
+                </div>
+                <button type="submit" class="join-waitlist">Join Waitlist</button>
+                <p class="terms-text">By signing up, you're agreeing to our <a href="#" class="terms-link">terms</a>.</p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
